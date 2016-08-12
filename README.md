@@ -1,4 +1,4 @@
-##根据html5 Geolocation API 提供的地理位置信息，转换成对应的实际地址。<br>
+##根据html5 Geolocation API 提供的地理位置信息，转换成对应的实际地址。
 ----
 
 该插件是jQery插件，使用前请先引用jQuery类库。<br>
