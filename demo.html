@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="Keywords" content="demo" />
+		<meta name="Description" content="demo" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>gps-demo</title>
+	</head>
+
+	<body>
+		<div id="result">
+			<span id="resultshow"></span>
+		</div>
+		
+		<script src="geolocation.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$("#result").convgps({
+				contentarea:"#resultshow",//显示地址区域
+				apis: "qq", //默认调用腾讯地图的api,其他的我还没添加
+				key:"Z4WBZ-QWK3X-XKB46-ZJ4EC-N67ZZ-AVFOU"//接口密钥
+			}).css("color","green");
+		</script>
+
+	</body>
+
+</html>
