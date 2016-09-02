@@ -17,11 +17,12 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js" type="text/javascript" charset="utf-8"></script> 
 		<script src="geolocation.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
-			$("#result").convgps({
+			var result = $.convgps({
 				contentarea:"#resultshow",//显示地址区域
 				apis: "qq", //默认调用腾讯地图的api,其他的我还没添加
 				key:""//接口密钥
-			}).css("color","green");
+			});
+			$('#resultshow').html(result);
 		</script>
 
 	</body>
