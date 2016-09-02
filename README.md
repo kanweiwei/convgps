@@ -1,4 +1,4 @@
-##根据html5 Geolocation API 提供的地理位置信息，转换成对应的实际地址。
+##根据html5 Geolocation API 提供的地理位置信息，调用各大地图api获取需要的数据。
 ----
 
 该插件是jQery插件，使用前请先引用jQuery类库。<br>
@@ -9,7 +9,6 @@
 ###用法<br>
 $.convgps({<br>
   apis:"qq",<br>
-  contentarea:"otherSelector",<br>
   key:"",<br>
   des:'距离计算',<br>
   destination：'30.123123,120,42321'
