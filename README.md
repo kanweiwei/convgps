@@ -1,7 +1,7 @@
 ##根据html5 Geolocation API 提供的地理位置信息，调用各大地图api获取需要的数据。
 ----
 
-该插件是jQery插件，使用前请先引用jQuery类库。<br>
+该插件是jQuery插件，使用前请先引用jQuery类库。<br>
 
 例(cdn)：<br>
 \<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.js" type="text/javascript" charset="utf-8">\</script> <br>
